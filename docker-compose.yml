@@ -1,0 +1,16 @@
+version: '3'
+services:
+  comment-service:
+    build: ./comment-service
+    ports:
+      - "3003:3003"
+    environment:
+      DB_HOST: comment-db
+    depends_on:
+      - comment-db
+
+  comment-db:
+    image: postgres:13
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: comment_db
