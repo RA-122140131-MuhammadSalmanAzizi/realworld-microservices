@@ -1,7 +1,7 @@
 # RealWorld Microservices
 
 ## Migrasi Aplikasi Monolitik ke Mikroservis
-**Studi Kasus: RealWorld App**
+**Studi Kasus: RealWorld App (fokus utama fitur comment services)**
 
 ---
 
